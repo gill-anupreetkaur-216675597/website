@@ -57,6 +57,30 @@ a:hover{
 
 }
 
+/* Navigating Bar */
+.navbar {
+  padding: 0;
+}
+.container-fluid {
+    background-color: #9dc6a7;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: thin;
+}
+
 .bottom-cloud{
   position: absolute;
   left: 180px;
@@ -81,6 +105,11 @@ padding: 50px 0 20px;
   width: 165px;
   height: 165px;
 }
+.woman{
+  width: 40px;
+  height: 40px;
+
+}
 .coding{
   width: 165px;
   height: 165px;
@@ -88,12 +117,24 @@ padding: 50px 0 20px;
   float:left;
   margin-right: 30px;
 }
-.henna{
-  width: 165px;
-  height: 165px;
+.projects{
+  width: 200px;
+  height: 200px;
   width: 25%;
   float: right;
   margin-left: 30px;
+}
+
+.education-row{
+  width:50%;
+  margin: 50px auto 50px auto;
+  text-align: left;
+}
+
+.experience-row{
+  width:50%;
+  margin: 35px auto 35px auto;
+  text-align: left;
 }
 
 .skill-row{
